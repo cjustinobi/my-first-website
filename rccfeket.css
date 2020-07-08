@@ -1,0 +1,647 @@
+body {
+	font-family:Arial, Tahoma, Verdana;
+	font-size:1em;
+	margin:0 auto;
+	padding:0;
+	color:#242424;
+	line-height:20px;
+	text-align: center; /* Centers the container */
+	background-color: #007389; 
+}
+
+#wrapper{
+	width:100%;
+	
+}
+
+#container {
+	width: 980px; /* 780px is just wide enough to fill and 800px screen */
+	margin: 10px auto; /* It's important to set the margin to auto if you want the layout to center */
+	padding:0; 
+	
+	text-align: left;
+	border: 1px dotted #FF0000; 
+	background-color: #fff; 
+}
+
+
+#header {
+	width: 940px;
+	background:; 
+	margin: 0 auto;
+	padding: ; 
+	height:360px;
+	position: relative;
+}
+.tel{
+	font-weight: bold;
+	margin-left:500px;
+}
+.tel p  a{
+	color: #0C7504;
+	text-decoration: none;
+	font-size:15px;
+	
+}
+.follow{
+	margin-left:500px;
+	margin-top:-8px;
+	font-weight: bold;
+}
+.search{
+  width:500px;
+  float: ;
+}
+#content{
+	
+	width: 940px;
+	position: relative;
+	padding:0;
+	margin:20px auto;	
+}
+
+.crmlogo{
+	width: 150px;
+	height:10px;
+	position: relative;
+	padding-bottom: 0;
+	float: left;
+}
+.crmlogo img{
+	margin-top: 50px;
+}
+
+.fellowshipname{
+	width: 580px;
+	height: 75px;
+	color: #183005;
+	float: left;
+	font-size: 18px;
+	margin-top: 150px;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+.nysclogo{
+	width: 200px;
+	height:200px;
+	float: right;
+	background-color: ;
+	position: relative;
+	margin-top: 60px;
+}
+.nysclogo img{
+	margin-left: 38px;
+	margin-top: 0;	
+}
+
+
+#topnavigation{
+	width: 940px;
+	height:60px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.menu{
+	width: 940px;
+	height:35px;
+	float:right;
+	background-color: #000000;
+	position: relative;
+	
+}
+
+.menu li{
+	display: inline;
+	margin-left: 10px ;
+	padding: 0 ;
+	font-family: Arial,Tahoma,Verdana;
+}
+.menu ul{
+	margin-top: 7px;
+	padding: 0;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: green;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#box a:hover{
+	background-color: #00a85a;
+	color: #990000;
+	font-style: italic;
+	font-weight: bold;
+}
+.menu ul li a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+#banner{
+	width: 940px;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 1px;
+	position: relative;
+	background-image: url(images/house.jpg);
+}
+#banner #bannnertext{
+	width: 600px;
+	
+	font-family: Arial,Tahoma,Verdana;
+	position: relative;
+}
+#box{
+	width: 940px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	font-size: 0.8em;
+}
+ #box h2{
+	color: #FFFFFF;
+	background-color: #008000;
+	font-weight: bold;
+	padding-left: 20px;
+	
+}
+.box1{
+	float: left;
+}
+
+
+.box2{
+	float: right;
+	margin-right: 314px;
+}
+.box3{
+	float: right;
+	margin-top: -400px;
+	line-height:15px;
+}
+.box3 h2{
+	line-height: 20px;
+}
+.box1, .box2, .box3{
+	padding: 0;
+	height: 400px;
+	width: 300px;
+}
+.box1 p{
+	padding-left: 0;
+}
+.box1 .welcomepix{
+	margin-left: 0;
+	position: relative;
+	
+}
+.box1 a, .box2 a{
+	text-decoration:none;
+}
+.whoweare{
+	position: relative;
+	
+}
+.mission li{
+	 list-style:square;
+	 list-style-position:inside;
+	 padding-bottom: 10px;
+	 margin-left:-18px;
+	 color: green;
+	 border-bottom: 1px dotted green;
+}
+.mission a{
+	color:#242424;
+	font-weight: bold;
+	text-decoration: none;
+}
+ 
+#routine{
+	width: 940px;
+	height: 650px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 0.8em;
+	border:;
+}
+#index_routineleft{
+	width: 320px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	border:;
+	
+	position: relative;
+}
+#routineleft{
+	width: 320px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	float: left;
+	border:;
+	background-color: #D9FCE8;
+	position: relative;
+}
+#nyscorientation{
+	color: #000000;
+	width:;
+	border:1px dotted grey;
+	height:;
+	margin-top:4px;
+	padding:;
+	background:#FFFFFF;
+	
+}
+#nyscorientation a{
+	text-decoration:none;
+	color: #FFFFFF;
+	background: #030B11;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	margin-left:0px;
+}
+#nyscorientation a:hover{
+	color:#000000;
+	background: #CDC0B0;
+}
+#news{
+	margin-top:10px;
+	padding:0;
+	width: ;
+	border:;
+	float:;
+	position: ;
+}
+#nyscnews{
+	width:250px;
+	line-height:12px;
+	margin-top:-17px ;
+	border: ;
+	background-color: ;
+	color: ;
+	margin-left: 60px;
+	float: ;
+	position:;
+}
+#nyscnews h3{
+	padding:0;
+	margin:0;
+	color:#190E7F;
+	font-weight: bold;
+	float: ;
+}
+#sod{
+	color: #000000;
+	width:;
+	border:1px dotted grey;
+	height:;
+	margin-top:4px;
+	padding:;
+	background:#FFFFFF;
+	
+}
+#sod a{
+	text-decoration:none;
+	color: #FFFFFF;
+	background: #030B11;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	margin-left:0px;
+}	
+
+#routineright{
+	width: 615px;
+	float: right;
+	border: ;
+}
+#routineright p{
+	padding-left: 10px;
+}
+#openheaven{
+	width: 280px;
+	height: 150px;
+	border: 1px solid red;
+	margin-left: 20px;
+	background-image: url(images/cloud1.png);
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	position: relative;
+}
+#openheaven img{
+	float: left;
+}
+#openheaven .oh{
+	float: right;
+	width: 180px;
+	
+}
+#prophecy{
+    width: 280px;
+	height: 190px;
+	border: 1px solid red;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #EEDD82;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	position: relative;
+}
+.curvebox{
+	width: 260px;
+	height: 130px;
+	position: relative;
+	font-family: Palatino Linotype, Book Antiqua, Paltino, serif;
+	margin-left: 10px;
+	box-shadow:  9px 9px 5px 1px #000102;
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.lowercurvebox{
+	
+	margin-top:-10px;
+	position: relative;
+	background-color: #F2F7F9;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	}
+.lowercurvebox a:hover{
+	color:#000102;
+	background-color: #F2F7F9;
+}
+	
+#birthday{
+    width: 280px;
+	height: 150px;
+	margin-top:20px;
+	margin-left:20px;
+	border: 1px solid red;
+	position: relative;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url(images/happibd.jpg);
+}
+.oh a{
+	color:#00a85a;
+	text-decoration: none;
+	}
+.oh a:hover{
+	background-color:#FFF0F5;
+	color: #0F4E84;
+}
+.lowercurvebox a{
+	color:#00a85a;
+	text-decoration: none;
+}
+.lowercurvebox a:hover{
+	background-color:#EA9423;
+}
+.favour{
+	marquee-direction: left;
+	marquee-play-count:!important;
+	marquee-speed: slow;
+	marquee-style: scroll;
+	font-size:20px;
+	color:#242424;
+	font-style: italic;
+	
+}
+#footer{
+	position: relative;
+	background-color: ;
+	font-size: 12px;
+	color: #000000;
+	border-top:1px dotted #08600B;
+
+}
+#footer-text1{
+	width:430px;
+	border-right: 1px dotted #08600B;
+	height:70px;
+	padding-left: 30px;
+	border-right:; 
+}
+#footer-text2{
+	width:460px;
+	border:;
+	float: right;
+	margin-top: -80px;
+}
+#footer-text2 a{
+	text-decoration: none;
+	color: #0C7504;
+	font-weight: bold; 
+}
+/*About us Section Starts Here */
+
+#about_routine{
+	width: 940px;
+	height: 1200px;
+	position: relative;
+	margin: 15px auto;
+	font-size: 0.8em;
+	border:;
+}
+ #about_routinecenter{
+	width: 300px;
+	height: 600px;
+	padding-left: 10px;
+	border: ;
+	position: relative;
+	float: left;
+}
+#about_routineright{
+	width: 300px;
+	padding: 0;
+	border: ;
+	position: relative;
+	float: right;
+	margin-top:0;
+	
+}
+.about_routineright a{
+	text-decoration: none;
+	color: #DD0606;
+}
+.about_routineright li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.about_routineright a:hover{
+	color: #FFFFFF;
+	background: #020000;
+	
+}
+
+	
+}
+.about_routineright{
+	width: 300px;
+	height: 600px;
+	padding: 0;
+	border: 1px solid gray;
+
+}
+#song{
+	font-style: italic;
+	text-align: center;
+	marquee-direction: ;
+	marquee-play-count:normal ;
+	marquee-speed: ;
+}
+/* About Session Ends Here */
+
+
+/* Contact Session Starts Here */
+#contactcontent{
+	font-size: 13px;
+}
+form.contact fieldset{
+  border: 2px solid #336600;
+  padding: 10px;
+}
+form.contact legend{
+  font-weight: bold;
+  font-size: small;
+  color: #336600;
+  padding: 5px;
+}
+form.contact{
+padding: 0;
+margin: 0;
+margin-top: -15px;
+line-height: 150%;
+}
+form.contact label{
+font-weight: bold;
+font-size: small;
+color: green;
+}
+form.contact label.fixedwidth{
+  display: block;
+  width: 240px;
+  float: left;
+}
+form.contact .buttonarea input{
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid white;
+}
+form.contact .buttonarea{
+  text-align: center;
+  padding: 4px;
+  background-color: green;
+}
+/* Contact Session Ends Here */
+
+/* Events Session Starts Here */
+
+#eventcontent{
+	width: 940px;
+	height: 950px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 0.8em;
+	border:1px solid green;
+}
+#eventsod{
+	width: 600px;
+	border:1px solid green;
+	float: left;
+}
+.eventnysc {
+	margin-top: 60px;
+}
+#eventlink{
+	width: 320px;
+	border:1px solid red;
+	float: left;
+}
+th{
+	background-color: gray;
+}
+/* Events Session Ends Here*/
+
+/* Gallery Session Starts Here */
+ #sendforthpix{
+ height: 500px;
+ margin-top: 0px;
+ line-height: 11px;
+ font-weight: bold;
+ }
+ 
+#tableofmen{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+#teteatete{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+#bigfamily{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+#papablessing{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+#activity{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+#normal{
+	border-bottom: 1px dotted #008000;
+	width: 310px;
+	height: 280px;
+	float: left;
+}
+
+
+#gallerycontent{
+	width: 940px;
+	height: 650px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 0.8em;
+	border:;
+}
+/* Gallerry Session Ends Here */
+
+nav{
+float:right;
+}
+p:hover{color:#D6632A; font-size:22px;}
+#header <p{color:red}
